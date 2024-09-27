@@ -1,11 +1,11 @@
-pandas
-requests
-Pillow
-streamlit_timeline
-numpy 
-pyvista
-stpyvista
-cadquery
-click==8.0.4  # streamlit compatibility
-ipywidgets==7.7.1
-pythreejs==2.4.2
+#pandas
+#requests
+#Pillow
+#streamlit_timeline
+#numpy 
+#pyvista
+#stpyvista
+#cadquery
+#click==8.0.4  # streamlit compatibility
+#ipywidgets==7.7.1
+#pythreejs==2.4.2
