@@ -58,27 +58,27 @@ with st.container():
 with st.container():
     st.subheader("My Timeline so far")
     
-    from streamlit_timeline import st_timeline
-    import datetime
+    #from streamlit_timeline import st_timeline
+    #import datetime
     # Get today's date
-    today = datetime.date.today()
+    #today = datetime.date.today()
     # Format the date as YYYY-MM-DD
-    formatted_date = today.strftime("%Y-%m-%d")
+    #formatted_date = today.strftime("%Y-%m-%d")
 
 
-    items = [
-        {"id": 1, "content":"Born", "start": "1998-08-03", "Summary": "Born in Brighton, schooled at Deepdean, St Christopher's and Brighton College"},
-        {"id": 2, "content": "Durham Uni", "start": "2016-09-06","Summary": "Went to Durham University to study B.Eng General Enigneering, then went on to complete a M.Sc in Advanced Mechanical Engineering"},
-        {"id": 3, "content": "Flexio", "start": "2020-10-18", "Summary": "Joined Flexio after Uni"},
-        {"id": 4, "content": "Siemens Healthineers", "start": "2021-02-01", "Summary": "Joined Siemens Healthineers"},
-        {"id": 5, "content": "AstraZeneca", "start": "2021-09-06", "Summary": "Joined AstraZeneca on the Technology Leadership Graduate Scheme"},
-        {"id": 6, "content": "AstraZeneca US", "start": "2023-04-01", "Summary": "Went to Maryland, USA with Astrazeneca"},
-        {"id": 7, "content": "Now", "start": formatted_date, "Summary": "Working in the Digital, Strategy and Change team in Operations. Working on Zenon implementation, digitalisation and learning from my business colleagues"}
-    ]
+    #items = [
+    #    {"id": 1, "content":"Born", "start": "1998-08-03", "Summary": "Born in Brighton, schooled at Deepdean, St Christopher's and Brighton College"},
+    #    {"id": 2, "content": "Durham Uni", "start": "2016-09-06","Summary": "Went to Durham University to study B.Eng General Enigneering, then went on to complete a M.Sc in Advanced Mechanical Engineering"},
+    #    {"id": 3, "content": "Flexio", "start": "2020-10-18", "Summary": "Joined Flexio after Uni"},
+    #    {"id": 4, "content": "Siemens Healthineers", "start": "2021-02-01", "Summary": "Joined Siemens Healthineers"},
+    #    {"id": 5, "content": "AstraZeneca", "start": "2021-09-06", "Summary": "Joined AstraZeneca on the Technology Leadership Graduate Scheme"},
+    #    {"id": 6, "content": "AstraZeneca US", "start": "2023-04-01", "Summary": "Went to Maryland, USA with Astrazeneca"},
+    #    {"id": 7, "content": "Now", "start": formatted_date, "Summary": "Working in the Digital, Strategy and Change team in Operations. Working on Zenon implementation, digitalisation and learning from my business colleagues"}
+    #]
 
-    timeline = st_timeline(items, groups=[], options={}, height="300px")
-    st.subheader("Selected item")
-    st.write(timeline)
+    #timeline = st_timeline(items, groups=[], options={}, height="300px")
+    #st.subheader("Selected item")
+    #st.write(timeline)
 
 
 
