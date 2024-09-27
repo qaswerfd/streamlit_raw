@@ -7,13 +7,13 @@ import sys
 import os
 
 # Path to the directory you want to add
-my_module_dir = r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main"
+#my_module_dir = r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main"
 
 # Ensure the directory exists
-if os.path.isdir(my_module_dir):
-  sys.path.append(my_module_dir)
-else:
-  print(f"Directory '{my_module_dir}' does not exist.")
+#if os.path.isdir(my_module_dir):
+#  sys.path.append(my_module_dir)
+#else:
+#  print(f"Directory '{my_module_dir}' does not exist.")
 
 import streamlit as st
 
